@@ -1,0 +1,20 @@
+.hero{
+    
+    /* background stuff */
+    width: 100%;
+    height: 646px;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position:center;
+
+    /* content stuff */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero p{
+    margin-left: 120px;
+    font-size: 75px;
+    white-space: pre;
+}

@@ -1,0 +1,48 @@
+.rep{
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    height: 433px;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+
+h1{
+    margin: auto;
+    margin-top: 30px;
+    width: 300px;
+    font-weight: 900;
+    font-size: 45px
+}
+
+.rep div{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;
+    
+}
+
+.rep div img{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.rep div p{
+    white-space: pre;
+    padding-top: 5px;
+}
+
+.fat-text{
+    font-weight: bold;
+    font-size: x-large;
+    font-weight: 800;
+    margin-left: 10px ;
+}
+
+.grey-text{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: var(--Grey);
+    font-size: large;
+}

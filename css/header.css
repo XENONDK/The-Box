@@ -1,0 +1,29 @@
+.header{
+    width: 1170px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.header img{
+display: flex;
+}
+
+.header nav{
+    align-items: center;
+    margin-left: 610px;
+    margin-top: 20px;
+}
+
+.header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.header nav ul a{
+    font-size: larger;
+    text-decoration: none;
+}

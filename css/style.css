@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+/* forskellige css filer */
+@import url(base.css);
+@import url(variabler.css);
+@import url(header.css);
+@import url(hero.css);
+@import url(rep.css);
+@import url(aboutUs.css);
+@import url(consultation.css);
