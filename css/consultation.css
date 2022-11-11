@@ -4,4 +4,38 @@
     background-position: center;
     height: 300px;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(25,1fr);
+    grid-template-rows: repeat(25,1fr);
+}
+
+.box{
+    grid-area: 9/4/18/22;
+    padding: 10px;
+    
+}
+
+.consultation h2{
+    font-size: 40px;
+    color: var(--white);
+   
+}
+
+.consultation p{
+    color: var(--white);
+   margin-top: 20px; 
+}
+
+.consultation p a{
+    color: var(--light);
+    
+}
+
+.consultation button{
+    grid-area: 11/21/20/24;
+    background-color: transparent;
+    color: var(--white);
+    border: 3px solid white;
+    padding: 5px;
+    height: 50px;
 }

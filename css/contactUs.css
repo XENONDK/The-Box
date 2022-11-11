@@ -1,0 +1,50 @@
+.contact-us{
+    height: 612px;
+    width:  100%;
+    background-color: var(--Grey);
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(50,1fr);
+}
+
+.contact-us h2{
+    grid-area: 3/20/8/30;
+}
+
+.contact-us p {
+    grid-area: 6/18/8/33;
+}
+
+.contact-us form{
+    grid-area: 10/14/40/37;
+    width: 100%;
+    
+}
+
+#name{
+    width: 400px;
+    height: 30px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+#email{
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#msg{
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#submit{
+    margin-top: 15px;
+    width: 200px;
+    margin-left: 200px;
+    height: 50px;
+}
